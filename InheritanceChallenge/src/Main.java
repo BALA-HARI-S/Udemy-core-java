@@ -22,5 +22,7 @@ public class Main {
         System.out.println("Mary PayCheck : $" + mary.collectPay());
         System.out.println("Mary DoublePayCheck : $" + mary.getDoublePay());
         System.out.println(mary);
+
+        System.out.println("Coding Exercise 30 : Sum Calculator : ");
     }
 }
