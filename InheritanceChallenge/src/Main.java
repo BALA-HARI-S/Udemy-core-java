@@ -23,6 +23,10 @@ public class Main {
         System.out.println("Mary DoublePayCheck : $" + mary.getDoublePay());
         System.out.println(mary);
 
-        System.out.println("Coding Exercise 30 : Sum Calculator : ");
+        Point newPoint = new Point(1,2);
+        System.out.println("Coding Exercise 33 : Point" + "\n" +
+                newPoint.distance() + "\n" + newPoint.distance(newPoint));
+
+
     }
 }
