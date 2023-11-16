@@ -30,6 +30,8 @@ public class Main {
         album1.addToPlayList("Dandelions", playList);
         album1.addToPlayList("Maroon5", playList);
 
+        boolean addSong = album1.addToPlayList(1, playList);
+        System.out.println("add 5th Song : "+ addSong);
         for(Song s : playList){
             System.out.println(s);
         }
