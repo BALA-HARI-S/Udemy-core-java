@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/CompositioChallenge/CompositioChallenge.iml" filepath="$PROJECT_DIR$/CompositioChallenge/CompositioChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/ComputerFactory/ComputerFactory.iml" filepath="$PROJECT_DIR$/ComputerFactory/ComputerFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstProject/FirstProject.iml" filepath="$PROJECT_DIR$/FirstProject/FirstProject.iml" />
@@ -11,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/InheritanceChallenge/InheritanceChallenge.iml" filepath="$PROJECT_DIR$/InheritanceChallenge/InheritanceChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaPracticePrograms01/JavaPracticePrograms01.iml" filepath="$PROJECT_DIR$/JavaPracticePrograms01/JavaPracticePrograms01.iml" />
       <module fileurl="file://$PROJECT_DIR$/LambdaExpression/LambdaExpression.iml" filepath="$PROJECT_DIR$/LambdaExpression/LambdaExpression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/List/List.iml" filepath="$PROJECT_DIR$/List/List.iml" />
       <module fileurl="file://$PROJECT_DIR$/NestedClass/NestedClass.iml" filepath="$PROJECT_DIR$/NestedClass/NestedClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObjectClass/ObjectClass.iml" filepath="$PROJECT_DIR$/ObjectClass/ObjectClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
