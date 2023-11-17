@@ -92,4 +92,15 @@ public class Main {
         System.out.println("The operation result : " + result);
         return result;
     }
+
+/*    Four basic categories of functional interface
+java.util.functions
+There are over forty interfaces in this package
+these can all categorized by one of the following package
+
+Consumer void accept (T t) execute code without returning data
+Function R apply(T t) return a result of an operation function
+Predicate boolean test(T t) test if condition is true or false
+Supplier T get() return an instance of something
+ */
 }
