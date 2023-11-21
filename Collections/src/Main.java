@@ -34,5 +34,12 @@ public class Main {
         System.out.println("list list.addAll() : " + list);
         System.out.println("list1 List.of() : " + list1);
 
+
+        System.out.println();
+
+    }
+    public static char[] getImage(){
+        char symbols[] = {9827, 9830, 9829, 9824};
+        return symbols;
     }
 }
