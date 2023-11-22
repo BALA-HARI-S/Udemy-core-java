@@ -4,12 +4,63 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
+import java.time.Instant;
 
 public class Main {
     public static void main(String[] args) {
 
-        useFile("testfile.txt");
-        usePath("pathfile.txt");
+//        useFile("testfile.txt");
+//
+//        usePath("pathfile.txt");
+
+        Path path = Path.of("files/logs/new/test/logfile.txt");
+        printPathInfo(path);
+        logStatement(path);
+    }
+
+    private static void printPathInfo(Path path){
+
+        System.out.println("Path: " + path);
+        System.out.println("fileName = " + path.getFileName());
+        Path absolutePath = path.toAbsolutePath();
+        System.out.println("Absolute Path = " + absolutePath);
+        System.out.println("Abs path Root = " + absolutePath.getRoot());
+        System.out.println("Root = " + path.getRoot());
+        System.out.println("isAbsolute = " + path.isAbsolute());
+//        getParent() used to obtain the parent path of the current path.
+        System.out.println("getParent() = " + path.getParent());
+
+        System.out.println(absolutePath.getRoot());
+//        int i = 1;
+//        var it = absolutePath.iterator();
+//        while(it.hasNext()){
+//            System.out.println(".".repeat(i++) + " " + it.next());
+//        }
+
+        int pathParts = absolutePath.getNameCount();
+        for (int i = 0; i < pathParts; i++){
+            System.out.println(".".repeat(i + 1) + " " + absolutePath.getName(i));
+        }
+
+        System.out.println("_________________________");
+    }
+
+    private static void logStatement(Path path){
+
+        try{
+            Path parent = path.getParent();
+            if(!Files.exists(parent)){
+//                Files.createDirectory(parent);
+                Files.createDirectories(parent);
+
+            }
+            Files.writeString(path, Instant.now() + " : hello file\n" ,
+                    StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void useFile(String filename){
