@@ -8,6 +8,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println();
         System.out.println("Current working directory : " +
                 new File("").getAbsolutePath());
         for(File f: File.listRoots()){
