@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/NestedClass/NestedClass.iml" filepath="$PROJECT_DIR$/NestedClass/NestedClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObjectClass/ObjectClass.iml" filepath="$PROJECT_DIR$/ObjectClass/ObjectClass.iml" />
       <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringFormates/StringFormates.iml" filepath="$PROJECT_DIR$/StringFormates/StringFormates.iml" />
       <module fileurl="file://$PROJECT_DIR$/fileIO/fileIO.iml" filepath="$PROJECT_DIR$/fileIO/fileIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/udemy-core-java.iml" filepath="$PROJECT_DIR$/.idea/udemy-core-java.iml" />
