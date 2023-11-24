@@ -1,4 +1,4 @@
-package filePathFiles;
+package files.path;
 
 import java.io.File;
 import java.io.IOException;
