@@ -19,6 +19,7 @@ public class Main {
         Path destinationPath = Paths.get("copy.txt");
 
         try {
+//            copy method in Files
             Files.copy(sourcePath, destinationPath, StandardCopyOption.REPLACE_EXISTING);
             System.out.println("File copied successfully.");
         } catch (IOException e) {
